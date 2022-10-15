@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  transition: all 0.5s ease-in-out;
+}
+
+#root {
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid #aaffa8;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 30%;
+  padding: 10px 15px;
+  font-size: large;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+body {
+  background-color: #aaffa8;
+}
+
+.dark body {
+  background-color: rgb(6, 4, 20);
+}
+
+.dark input {
+  background-color: transparent;
+  color: white;
+  border-color: #333;
+}
+
+.dark button {
+  background-color: #333;
+  color: white;
+}
+
+input:focus:invalid {
+  border-color: red;
+}
+
+.right {
+  transform: translateX(calc(300px - 100%));
+}
+
+.left {
+  transform: translateX(0);
+}
