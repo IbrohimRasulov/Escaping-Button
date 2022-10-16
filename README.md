@@ -1,8 +1,6 @@
 # Escaping Button
 
-## About The Project
-
-![screenshot](Assets/Screenshot1.png)
+![Preview](https://screenrec.com/share/zk8vieaSgq)
 
 ### Built With
 
