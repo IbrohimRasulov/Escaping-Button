@@ -48,7 +48,7 @@ body {
   color: white;
 }
 
-input:focus:invalid {
+.invalid {
   border-color: red;
 }
 
