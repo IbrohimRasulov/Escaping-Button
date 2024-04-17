@@ -5,7 +5,9 @@ const input_2 = document.querySelector('input[type="email"]');
 
 // Dark Mode Toggle
 button.addEventListener("click", () => {
-  html.classList.toggle("dark");
+  if (input_1.checkValidity() && input_2.checkValidity()) {
+    html.classList.toggle("dark");
+  }
 });
 
 // Button Mouseover
@@ -15,7 +17,7 @@ button.addEventListener("mouseover", () => {
     button.classList.toggle("left");
   }
 
-  // Check Botton Validity
+  // Check Button Validity
   if (!input_1.checkValidity()) {
     input_1.classList.add('invalid');
   } else {
