@@ -17,14 +17,14 @@ button.addEventListener("mouseover", () => {
 
   // Check Botton Validity
   if (!input_1.checkValidity()) {
-    input_1.classList.add('invalid')
+    input_1.classList.add('invalid');
   } else {
-    input_1.classList.remove('invalid')
+    input_1.classList.remove('invalid');
   }
 
   if (!input_2.checkValidity()) {
-    input_2.classList.add('invalid')
+    input_2.classList.add('invalid');
   } else {
-    input_2.classList.remove('invalid')
+    input_2.classList.remove('invalid');
   }
 });
